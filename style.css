@@ -1,0 +1,132 @@
+*{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+list-style: none;
+text-decoration: none;
+}
+body{
+background-color: black;
+color: slategrey;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+font-weight: 200;
+}
+.header{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+.small__error{
+height: 10px;
+font-size: 10px;
+}
+.tittle__nucba{
+letter-spacing: 5px;
+font-size: 50px;
+}
+.main__conteiner{
+
+}
+.form__conteiner
+{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+#pizzalogo{
+  width: 100px;
+}
+.form__finder{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+padding: 10px 20px;
+
+}
+.input__number{
+border: 2px solid black;
+width: 300px;
+height: 40px;
+font-size: 30px;
+}
+.input__number::placeholder{
+font-size: 15px;
+color: black;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+align-content: center;
+
+
+}
+.input__number__error{
+color: red;
+font-size: 20px ;
+}
+.input__number__success{
+    color: green;
+    content: "";
+   
+}
+
+.button__form{
+width: 100px;
+height: 20px;
+}
+.card__conteiner{
+
+}
+.info__pizza{
+letter-spacing: 2px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.ul__card__pizza{
+padding: 0px;
+gap: 0px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+#img__conteiner{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.li__card__pizza{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+margin: 0px 20px;
+font-size: 25px;
+
+}
+.name__pizza{
+
+}
+.id__pizza{
+
+}
+.img__pizza{
+border-radius: 30px;
+}
+.pizza__existing{
+display: none;
+}
+.pizza__null{
+  display: none; 
+  border: red 5px solid;
+  background-color: aliceblue;
+  font-size:30px ;
+  padding: 50px;
+}
